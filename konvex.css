@@ -1,0 +1,180 @@
+
+header{
+	height: 100px;
+	padding: 20px 20px 0px 40px;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+div.box{
+	width: 300px;
+	display: inline-block;
+	padding-top: 50px;
+}
+
+
+img.center{
+	height: 50px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.box_solu{
+	width: 600px;
+	display: inline-block;
+	padding-top: 50px;
+}
+
+div.box_contato{
+	width: 200px;
+	display: inline-block;
+}
+
+footer{
+	background-color: black;
+	padding: 15px;
+	margin-top: 20px;
+}
+
+p#textosolu{
+	text-align: center;
+	font-family: Arial;
+	line-height: 40px;
+	background-color: white;
+	height: 50px;
+	color:black;
+}
+
+/*ID vem a seguir*/
+
+#logo{
+	float: left;
+	margin-left: 20px;
+}
+
+#menu{
+	float: right;
+	margin-top: 30px;
+	padding-left: 10px;
+}
+
+#menu a{
+	text-decoration: none;
+	color: white;
+	text-shadow: 0.3px 0.3px white;
+	padding: 20px;
+	font-size: 18px;
+}
+
+#sobre{
+	clear: both;
+	padding: 20px 10px 10px 20px;
+	height: 260px;
+}
+
+#texto_sobre{
+	float: left;
+	width: 55%;
+	margin-right: 10px;
+}
+
+#foto_sobre{
+	float:right;
+	width: 42%;
+}
+
+#contagem{
+	clear:both;
+	padding-left: 40px;
+	background-color: #514D4D;
+	margin-top: 100px;
+	padding-bottom: 100px;
+}
+
+#contato{
+	padding-left: 100px;
+}
+/*Classes*/
+
+.texto{
+	font-family: Arial;
+	padding-left: 40px;
+	font-size: 16px;
+	line-height: 1.8;
+	color: #828282;
+}
+
+.titulo{
+	padding-left: 40px;
+	font-size: 30px;
+	color: #444444;
+	font-family: Arial;
+	font-weight: lighter;
+}
+
+.slider{
+	height: 600px;
+	width: 100%;
+	background-image: url(escritorio.jpg);
+	background-size: 100%;
+	margin-bottom: 50px;
+	background-color: rgba(0, 0, 0, 0.3);
+}
+
+.titulo2{
+	color: white;
+	font-size: 28px;
+	font-family: Cuprum;
+	text-align: center;
+	padding-top: 10px;
+	font-weight: lighter;
+	padding-bottom: 20px;
+}
+
+.icones{
+	text-align: center;
+	color: white;
+	margin-top: 20px;
+	font-size: 26px;
+	font-family: noto sans;
+}
+
+.numero{
+	text-align: center;
+	font-size: 36px;
+	font-family: noto sans;
+	color:white;
+	margin-top: 20px;
+}
+
+.solucoes{
+	text-align: center;
+	font-family: arial;
+	font-size: 30px;
+	margin-top: 50px;
+}
+
+.texto_solu{
+	text-align: center;
+	font-family: Arial;
+	padding-top: 20px;
+	line-height: 40px;
+	background-color: white;
+}
+
+.contato{
+	text-align: left;
+	font-size: 20px;
+	font-family: Arial;
+}
+
+.footer{
+	color: white;
+	text-align: left;
+	padding-left: 40px;
+}
+
